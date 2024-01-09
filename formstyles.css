@@ -1,5 +1,5 @@
 /* Form styles for iframed forms test */ 
-  #submit_button,
+#submit_button,
 .wf,
 .wf-b {
     font-family: Lato, sans-serif;
@@ -72,8 +72,8 @@
     font-style: normal;
     font-weight: 900;
     font-display: auto;
-    src: url(/wp-content/themes/uiu/fonts/fa-solid-900.eot);
-    src: url(/wp-content/themes/uiu/fonts/fa-solid-900.eot?#iefix) format('embedded-opentype'), url(/wp-content/themes/uiu/fonts/fa-solid-900.woff2) format('woff2'), url(/wp-content/themes/uiu/fonts/fa-solid-900.woff) format('woff'), url(/wp-content/themes/uiu/fonts/fa-solid-900.ttf) format('truetype'), url(/wp-content/themes/uiu/fonts/fa-solid-900.svg#fontawesome) format('svg')
+    src: url(https://uiu.edu/wp-content/themes/uiu/fonts/fa-solid-900.eot);
+    src: url(https://uiu.edu/wp-content/themes/uiu/fonts/fa-solid-900.eot?#iefix) format('embedded-opentype'), url(https://uiu.edu/wp-content/themes/uiu/fonts/fa-solid-900.woff2) format('woff2'), url(https://uiu.edu/wp-content/themes/uiu/fonts/fa-solid-900.woff) format('woff'), url(https://uiu.edu/wp-content/themes/uiu/fonts/fa-solid-900.ttf) format('truetype'), url(https://uiu.edu/wp-content/themes/uiu/fonts/fa-solid-900.svg#fontawesome) format('svg')
 }
 
 @font-face {
@@ -81,8 +81,8 @@
     font-style: normal;
     font-weight: 400;
     font-display: auto;
-    src: url(/wp-content/themes/uiu/fonts/fa-brands-400.eot);
-    src: url(/wp-content/themes/uiu/fonts/fa-brands-400.eot?#iefix) format('embedded-opentype'), url(/wp-content/themes/uiu/fonts/fa-brands-400.woff2) format('woff2'), url(/wp-content/themes/uiu/fonts/fa-brands-400.woff) format('woff'), url(/wp-content/themes/uiu/fonts/fa-brands-400.ttf) format('truetype'), url(/wp-content/themes/uiu/fonts/fa-brands-400.svg#fontawesome) format('svg')
+    src: url(https://uiu.edu/wp-content/themes/uiu/fonts/fa-brands-400.eot);
+    src: url(https://uiu.edu/wp-content/themes/uiu/fonts/fa-brands-400.eot?#iefix) format('embedded-opentype'), url(https://uiu.edu/wp-content/themes/uiu/fonts/fa-brands-400.woff2) format('woff2'), url(https://uiu.edu/wp-content/themes/uiu/fonts/fa-brands-400.woff) format('woff'), url(https://uiu.edu/wp-content/themes/uiu/fonts/fa-brands-400.ttf) format('truetype'), url(https://uiu.edu/wp-content/themes/uiu/fonts/fa-brands-400.svg#fontawesome) format('svg')
 }
 
 @font-face {
@@ -90,8 +90,8 @@
     font-style: normal;
     font-weight: 400;
     font-display: auto;
-    src: url(/wp-content/themes/uiu/fonts/fa-regular-400.eot);
-    src: url(/wp-content/themes/uiu/fonts/fa-regular-400.eot?#iefix) format('embedded-opentype'), url(/wp-content/themes/uiu/fonts/fa-regular-400.woff2) format('woff2'), url(/wp-content/themes/uiu/fonts/fa-regular-400.woff) format('woff'), url(/wp-content/themes/uiu/fonts/fa-regular-400.ttf) format('truetype'), url(/wp-content/themes/uiu/fonts/fa-regular-400.svg#fontawesome) format('svg')
+    src: url(https://uiu.edu/wp-content/themes/uiu/fonts/fa-regular-400.eot);
+    src: url(https://uiu.edu/wp-content/themes/uiu/fonts/fa-regular-400.eot?#iefix) format('embedded-opentype'), url(https://uiu.edu/wp-content/themes/uiu/fonts/fa-regular-400.woff2) format('woff2'), url(https://uiu.edu/wp-content/themes/uiu/fonts/fa-regular-400.woff) format('woff'), url(https://uiu.edu/wp-content/themes/uiu/fonts/fa-regular-400.ttf) format('truetype'), url(https://uiu.edu/wp-content/themes/uiu/fonts/fa-regular-400.svg#fontawesome) format('svg')
 }
 
 @font-face {
@@ -99,8 +99,8 @@
     font-style: normal;
     font-weight: 300;
     font-display: auto;
-    src: url(/wp-content/themes/uiu/fonts/fa-light-300.eot);
-    src: url(/wp-content/themes/uiu/fonts/fa-light-300.eot?#iefix) format('embedded-opentype'), url(/wp-content/themes/uiu/fonts/fa-light-300.woff2) format('woff2'), url(/wp-content/themes/uiu/fonts/fa-light-300.woff) format('woff'), url(/wp-content/themes/uiu/fonts/fa-light-300.ttf) format('truetype'), url(/wp-content/themes/uiu/fonts/fa-light-300.svg#fontawesome) format('svg')
+    src: url(https://uiu.edu/wp-content/themes/uiu/fonts/fa-light-300.eot);
+    src: url(https://uiu.edu/wp-content/themes/uiu/fonts/fa-light-300.eot?#iefix) format('embedded-opentype'), url(https://uiu.edu/wp-content/themes/uiu/fonts/fa-light-300.woff2) format('woff2'), url(https://uiu.edu/wp-content/themes/uiu/fonts/fa-light-300.woff) format('woff'), url(https://uiu.edu/wp-content/themes/uiu/fonts/fa-light-300.ttf) format('truetype'), url(https://uiu.edu/wp-content/themes/uiu/fonts/fa-light-300.svg#fontawesome) format('svg')
 }
 
 .fa,
@@ -124,12 +124,10 @@
 }
 
 @keyframes shake {
-
     0%,
     100% {
         transform: rotate(0)
     }
-
     25% {
         transform: rotate(7deg)
     }
@@ -139,9 +137,11 @@
     }
 }
 
+/*
 {
     padding: 0
 }
+*/
 
 after,
 before {
@@ -164,7 +164,7 @@ after {
 }
 
 .wFormContainer:after {
-    background: url(../../img/motion-lines-3.svg) no-repeat 15% 50%;
+    background: url(https://uiu.edu/wp-content/themes/uiu/img/motion-lines-3.svg) no-repeat 15% 50%;
     background-size: 200%;
     bottom: 0;
     content: '';
@@ -394,14 +394,4 @@ fieldset.section div.section.inline>div.oneField {
     background-color: #001030
 }
 
-.sidebar-item .wFormContainer {
-    min-width: 0
-}
 
-.sidebar-item fieldset.section {
-    display: block
-}
-
-.sidebar-item fieldset.section>div.oneField {
-    width: 100% !important
-}
